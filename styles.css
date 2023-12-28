@@ -1,0 +1,40 @@
+body {
+    background-color: #7D0A0A;
+}
+
+.intro{
+    background-color: #BF3131;
+    border-radius: 5px;
+}
+
+#title, #description {
+    text-align: center;
+    color: #EAD196;
+    padding-bottom: 5px;
+}
+
+#title{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#description {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color: #BF3131;
+    text-align: center;
+    border-radius: 5px;
+    height: 82vh;
+    color: #F3EDC8;
+    padding-top: 5px;
+}
+
+legend {
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+}

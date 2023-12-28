@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel=stylesheet href="styles.css">
+</head>
+<body>
+  <div class="intro">
+  <h1 id="title">Gym Survey Form</h1>
+  <p id="description">Thank you for participating in our gym's annual survey. We do a survery every year just to see how we are doing and anything you guys would like us to improve on. Thanks for taking the survey and see you next year!</p>
+  </div>
+  <form id="survey-form">  
+    <div class="container">
+      <label id="name-label">Name: <input id="name" type="text" placeholder="Enter your name" required/></label>
+      <br>
+      <label id="email-label">Email: <input id="email" type="email" placeholder="Enter your email" required/></label>
+      <br>
+      <label id="number-label">Age: <input id="number" type="number" min = 1 max = 100 placeholder="Age" required/></label>
+      <br>
+      <legend>Where did you hear from us?</legend>
+      <select id="dropdown">
+        <label><option id="dropdown" value="">(Select one)</option></label>
+        <label><option id="dropdown" value="1">Social media</option></label>
+        <label><option id="dropdown" value="2">Tv Ad</option></label>
+        <label><option id="dropdown" value="3">A friend</option></label>
+      <label><option id="dropdown" value="4">Other</option></label>
+      </select>
+      <br>
+      <legend>Would you recommend us?</legend>
+      <label><input id="dropdown" type="radio" value="yes" name="dropdowns"/>Yes</label>
+      <br>
+      <label><input id="dropdown" type="radio" value="maybe" name="dropdowns"/>Maybe</label>
+      <br>
+      <label><input id="dropdown" type="radio" value="not-sure" name="dropdowns"/>Not Sure</label>
+      <br>
+      <label><input id="dropdown" type="radio" value="no" name="dropdowns"/>No</label>
+      <br>
+      <legend>What should we add more of?</legend>
+      <label><input type="checkbox" value="machines" />Machines</lable>
+      <br>
+      <label><input type="checkbox" value="trainers" />Trainers</lable>
+      <br>
+      <label><input type="checkbox" value="amenities" />Amenities</lable>
+      <br>
+      <label><input type="checkbox" value="activites" />Activities</lable>
+      <br>
+      <legend>Comments or concerns?</legend>
+      <textarea placeholder="comments here..."></textarea>
+      <br>
+      <input id="submit" type="submit"/>
+
+    </div>
+  </form>
+</body>
+</html>
